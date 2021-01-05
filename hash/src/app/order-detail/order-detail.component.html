@@ -1,0 +1,106 @@
+
+<div class="img-slider">
+  <ng-image-slider #nav
+  [images]="imageObject"
+  [infinite]="false"
+  [autoSlide]="1"
+  [imageSize]="{width: '55%', height: 200}"
+  slideImage="1"></ng-image-slider>
+</div>
+
+
+
+<div class="container">
+
+    <div class="category">
+        <h6 class="type-s"> Home > My Account > My Order</h6>
+    </div>
+
+    <div class="box">
+
+        <div class="column">
+ 
+            <div class="details">
+  
+                <h4>
+                 Delivery Address
+                </h4>
+
+                <h6>
+                    Mohamed zubair
+                </h6>
+                <p>14,min nagar,amala school ,gobichttipalayam - 638476, Tamilnadu.</p>
+ 
+                <h6>Phone Number  9445234594</h6>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div class="box">
+        <div class="column">
+        <div class="col-sm-12">
+        
+         <div class="row">
+
+             <div class="col-sm-4">
+                 <div class="row">
+                  <div class="col-4">
+                    <img class="ear_img" alt="" src="https://rukminim1.flixcart.com/image/75/75/k47cgi80/headphone/u/h/g/lehza-i7s-sport-wireless-earphones-with-charging-box-original-imafn5nq8zhqqyr9.jpeg">
+                  </div>
+                  <div class="col-8">
+                   <a class="name">{{name}}</a>
+                   <div class="color">
+                   <span class="clr">{{color}}</span><br>
+                   <span class="clr">{{seller}}</span>
+                  </div>
+                  <div class="amount">
+                   {{amt}} <span class="ofr">{{offer}} <span class="question">?</span></span>
+                  </div>
+                  </div>
+                 </div>
+             </div>
+
+             <div class="col-sm-5 date-quer">
+
+                <div class="order">
+                    <h6 class="ord-er">
+                        Your item has been Inprogress
+                    </h6>
+                </div>
+
+                <div class="circ-le ">
+                <div class="bord">
+                <span *ngFor="let item of counts;let i = index">
+                    <span class="circle-desc" [class.circle-desc-active]="orderStatus == item">{{item}}</span>
+                    <span class="circles" [class.active]="orderStatus == item"></span>
+                    <span class="bar" *ngIf="(i != counts.length-1)"></span>
+                </span>
+               </div>
+                </div>
+               
+                          
+
+             </div>
+
+
+             <div class="col-sm-3 date-que">
+             <div class="del-date">
+                 <p class="dte">{{date}}</p>
+             </div>
+
+             <div class="query">
+                 <p class="qur"><img src="../../assets/images/cross.svg"> {{item}}</p>
+                 <p class="qur"><img src="../../assets/images/cross.svg"> {{help}}</p>
+             </div>
+             </div>
+
+         </div>
+        </div>
+    </div>
+    </div>
+
+
+</div>

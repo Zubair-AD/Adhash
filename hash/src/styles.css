@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background-color:#f1f3f6;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 450px) {
+    .navbar-header {
+        margin-left: 30px !important;
+        margin-bottom:3px !important;
+    }
+
+    .ear_img {
+        width: 100% !important;
+        cursor: pointer !important;
+        height: 70px !important;
+    }
+}
+
+@media only screen and (min-width:451px) and  (max-width: 800px)  {
+    .ear_img {
+        width: 100% !important;
+        cursor: pointer !important;
+        height: 75px !important;
+    }
+}
+
+.explore{
+    margin-top:-14px;
+  }
+
+  .category{
+      margin-top:15px;
+  }
+
+  .type-s{
+      font-size:12px;
+      color:grey
+  }
+
+  @media only screen and (min-width:300px) and  (max-width: 650px) {
+    .date-que{
+        margin-top:70px;
+    }
+    .date-quer{
+        margin-top:40px;
+    }
+  }
+  .ng-image-slider .ng-image-slider-container .main .main-inner .img-div img, .ng-image-slider .ng-image-slider-container .main .main-inner .img-div video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 104% !important;
+    width: 102% !important;
+    left: 0;
+    right: 0;
+    border-radius: 0px !important;
+}

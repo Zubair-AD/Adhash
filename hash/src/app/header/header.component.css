@@ -1,0 +1,86 @@
+
+nav .navbar-header a{
+    font-family:'Raleway',sans-serif;
+    letter-spacing:1px;
+  }
+  nav .navbar-header a,ul li a{
+    color:#fff;
+  }
+
+  .navbar-header{
+    margin-left:80px;
+  }
+
+  
+  .navbar-dark{
+    background-color:#2874f0;
+  }
+
+  .kart{
+      width:85px;
+      height:21px;
+  }
+
+  .exp_plus{
+    width:10px;
+    
+    }
+  .plus{
+    font-size: 9px;
+    font-style: italic;
+    color:#fff;
+  }
+  
+  
+  .pluss{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+  }
+
+  form{
+    position:relative;
+    top:10px;
+  }
+  
+  .menu{
+    border-bottom:1px solid rgba(0,0,0,0.1);
+  }
+  section{
+    position:relative;
+    top:4.5em;
+  }
+  section .container-fluid .thumbnail .caption .buttons{
+    margin:1px;
+  }
+  
+  section .desc h5 .glyphicon{
+    color:#5cb85c;
+  }
+  section .desc .breadcrumb{
+    padding-left:0;
+  }
+  
+  section .desc button:hover{
+    background-color:#fff;
+    border:1px solid #2874f0;
+    color:#2874f0;
+  }
+
+  .search{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .search,.srch{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+  }
+
+  
